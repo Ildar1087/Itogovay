@@ -1,0 +1,15 @@
+E:\учёба GEEK BRAINS\программиров. на С#\итоговая по C#\ZadachaMassivIzStrok\bin\Debug\net6.0\ZadachaMassivIzStrok.exe
+E:\учёба GEEK BRAINS\программиров. на С#\итоговая по C#\ZadachaMassivIzStrok\bin\Debug\net6.0\ZadachaMassivIzStrok.deps.json
+E:\учёба GEEK BRAINS\программиров. на С#\итоговая по C#\ZadachaMassivIzStrok\bin\Debug\net6.0\ZadachaMassivIzStrok.runtimeconfig.json
+E:\учёба GEEK BRAINS\программиров. на С#\итоговая по C#\ZadachaMassivIzStrok\bin\Debug\net6.0\ZadachaMassivIzStrok.dll
+E:\учёба GEEK BRAINS\программиров. на С#\итоговая по C#\ZadachaMassivIzStrok\bin\Debug\net6.0\ZadachaMassivIzStrok.pdb
+E:\учёба GEEK BRAINS\программиров. на С#\итоговая по C#\ZadachaMassivIzStrok\obj\Debug\net6.0\ZadachaMassivIzStrok.csproj.AssemblyReference.cache
+E:\учёба GEEK BRAINS\программиров. на С#\итоговая по C#\ZadachaMassivIzStrok\obj\Debug\net6.0\ZadachaMassivIzStrok.GeneratedMSBuildEditorConfig.editorconfig
+E:\учёба GEEK BRAINS\программиров. на С#\итоговая по C#\ZadachaMassivIzStrok\obj\Debug\net6.0\ZadachaMassivIzStrok.AssemblyInfoInputs.cache
+E:\учёба GEEK BRAINS\программиров. на С#\итоговая по C#\ZadachaMassivIzStrok\obj\Debug\net6.0\ZadachaMassivIzStrok.AssemblyInfo.cs
+E:\учёба GEEK BRAINS\программиров. на С#\итоговая по C#\ZadachaMassivIzStrok\obj\Debug\net6.0\ZadachaMassivIzStrok.csproj.CoreCompileInputs.cache
+E:\учёба GEEK BRAINS\программиров. на С#\итоговая по C#\ZadachaMassivIzStrok\obj\Debug\net6.0\ZadachaMassivIzStrok.dll
+E:\учёба GEEK BRAINS\программиров. на С#\итоговая по C#\ZadachaMassivIzStrok\obj\Debug\net6.0\refint\ZadachaMassivIzStrok.dll
+E:\учёба GEEK BRAINS\программиров. на С#\итоговая по C#\ZadachaMassivIzStrok\obj\Debug\net6.0\ZadachaMassivIzStrok.pdb
+E:\учёба GEEK BRAINS\программиров. на С#\итоговая по C#\ZadachaMassivIzStrok\obj\Debug\net6.0\ZadachaMassivIzStrok.genruntimeconfig.cache
+E:\учёба GEEK BRAINS\программиров. на С#\итоговая по C#\ZadachaMassivIzStrok\obj\Debug\net6.0\ref\ZadachaMassivIzStrok.dll
