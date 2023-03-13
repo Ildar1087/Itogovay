@@ -12,13 +12,13 @@ int k = int.Parse(Console.ReadLine());
 System.Console.WriteLine("Введите число ограничения длины массива: ");
 int o = int.Parse(Console.ReadLine());
 string[] array = new string[k];
-AddString(array);
+AddMassString(array);
 System.Console.WriteLine($"Значения из массива меньше или равны {o} символам:");
-ShowResults(Results(array));
+PrintResults(Results(array));
 
 
-
-void AddString(string[] arr)
+// функ. для добавления элементов массива по указанным параметрам пользователя
+void AddMassString(string[] arr) 
 {
   for (int i = 0; i < arr.GetLength(0); i++)
   {
@@ -27,6 +27,7 @@ void AddString(string[] arr)
   }
 }
 
+// функ. для фильтрации элементов массива, по условию заданным пользователем
 string[] Results(string[] arr)
 {
   int tempInt = 0;
@@ -38,7 +39,7 @@ string[] Results(string[] arr)
       tempInt++;
     }
   }
-  string[] tempArray = new string[tempInt];
+  string[] tempArray = new string[tempInt]; // создаем новый массив для занесения элементов по условию
   for (int i = 0; i < arr.GetLength(0); i++)
   {
     if (arr[i].Length <= o)
@@ -49,64 +50,13 @@ string[] Results(string[] arr)
   }
   return tempArray;
 }
-
-void PrintResults(string[] arr)
+ 
+//функ. по выводу результирующего массива элементов
+void PrintResults(string[] arr) 
 {
   for (int i = 0; i < arr.GetLength(0); i++)
   {
-    System.Console.WriteLine(arr[i]);
+    System.Console.Write($"{arr[i]} ");
   }
 }
-
-// string[] arriva = { "123; 124; aasdas; asda sd; 123; 123; 124; 124" };
-// // Print(arr);
-// // Print(DeleteEqualValues(arr));
-// // NullMass(arriva);
-// // string[] NullMass(string[] arr)
-// // {
-// //   string[] nulmas = new string[arr];
-// //   for(int i = 0; i < arr.Length; i++)
-// //   {
-// // System.Console.WriteLine(nulmas);
-// //   }
-// //   return nulmas;
-// // }
-// GetArray(arriva);
-// string[] s = GetArray(arriva);
-// PrintArray(s);
-
-// string[] GetArray(string[] m)
-// {
-//   int free = 3;
-//   string[] result = new string[m.Length];
-//   for (int i = 0; i < free; i++)
-//   {
-//     result[i] = m [i];
-//   }
-//   return result;
-// }
-
-// void PrintArray(string[] inArray)
-// {
-//   for (int i = 0; i < inArray.GetLength(0); i++)
-//   {
-//     Console.Write($"{inArray[i]} ");
-//   }
-// }
-
-
-// using System;
-// using System.Linq;
-// int x = 3;
-
-// Console.Write("введите значения через пробел: ");
-// int[] numbers = Console.ReadLine().Split(' ').Select(s => int.Parse(s)).ToArray();
-// int[] array = new int[numbers.Length];
-// for (int i = 0; i < x; i++)
-// {
-//   array[i] = numbers[i];
-//   System.Console.WriteLine(array[i]);
-// // }
-// string[] d = {dfd, 34, lok, jora, oih, 9898, 9, 78};
-// Console.WriteLine(d);
 
