@@ -14,7 +14,7 @@ int o = int.Parse(Console.ReadLine());
 string[] array = new string[k];
 AddMassString(array);
 System.Console.WriteLine($"Значения из массива меньше или равны {o} символам:");
-PrintResults(Results(array));
+PrintResults(FiltrMass(array));
 
 
 // функ. для добавления элементов массива по указанным параметрам пользователя
@@ -28,7 +28,7 @@ void AddMassString(string[] arr)
 }
 
 // функ. для фильтрации элементов массива, по условию заданным пользователем
-string[] Results(string[] arr)
+string[] FiltrMass(string[] arr)
 {
   int tempInt = 0;
   int tempI = 0;
